@@ -14,7 +14,7 @@ app.use(history(options));
 app.use(serveStatic);
 // -------------------------------------ROUTES---------------------------------
 app.get('/', (req, res) => {
-  res.render(__dirname + '/dist/index.html');
+  res.render(`${__dirname}/dist/index.html`);
 });
 // --------------------------------------SERVER---------------------------------
 const port = 3000;
