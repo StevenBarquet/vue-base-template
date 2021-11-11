@@ -1,5 +1,5 @@
 <template>
-  <a-col :span="grid.xl">
+  <a-col :xs="grid.xs" :sm="grid.sm" :md="grid.md" :lg="grid.lg" :xl="grid.xl" :xxl="grid.xxl">
     <router-link :to="{ path: path }">
       <div class="nav-button">
         {{ label }}

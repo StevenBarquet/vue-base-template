@@ -3,7 +3,7 @@
     <a-row>
       <NavButton label="Home" path="/" :grid="gridButtons" />
       <NavButton label="About" path="/about" :grid="gridButtons" />
-      <NavButton label="Mau es puto" path="/mau" :grid="gridButtons" />
+      <NavButton label="Mau es hetero" path="/mau" :grid="gridButtons" />
     </a-row>
   </nav>
 </template>
